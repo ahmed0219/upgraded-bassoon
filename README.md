@@ -1,4 +1,4 @@
-#Github Getting Started
+# Github Getting Started
 ## Basics
 -Understand Github
 -Create repositries

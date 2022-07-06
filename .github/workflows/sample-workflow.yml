@@ -1,0 +1,16 @@
+
+name: sample-workflow
+
+on: [push]
+ =
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs: 
+      explore-first-github-wf
+
+    runs-on: ubuntu-latest
+
+   
+    steps:
+   -run: echo "the job was automatically triggred by a $ {{github.event_name}} event"
+   -run echo "this job is now running on a $ {{github.ref}} and your repository is ${{github.repository}}."

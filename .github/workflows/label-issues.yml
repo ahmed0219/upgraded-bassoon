@@ -2,7 +2,7 @@ name: label issues
 on:
  issues:
   types:
-     -reopened
+     - reopened
      - opened
 jobs: 
  label_issues:

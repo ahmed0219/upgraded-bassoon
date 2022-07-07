@@ -1,7 +1,7 @@
-name: label issues
+name: Label issues
 on:
  issues:
-  types:
+   types:
      - reopened
      - opened
 jobs: 
@@ -14,5 +14,5 @@ jobs:
       uses: andymckay/labeler@1.0.2
       with:
          add-labels: "triage"
-         repo-token: ${{secrets.GITHUB_TOKEN}}
+         repo-token: ${ {secrets.GITHUB_TOKEN }}
   
